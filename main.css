@@ -1,0 +1,17 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background: forestgreen;
+    margin: 0 auto;
+    animation-duration: 18s;
+    animation-name: block;
+    animation-iteration-count: infinite;
+}
+@keyframes block{
+    0%{
+        transform: rotate(-60turn);
+    }
+    100%{
+        transform: rotate(-180turn);
+    }
+}
